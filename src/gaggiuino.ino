@@ -103,7 +103,7 @@ void setup(void) {
 
 //Main loop where all the logic is continuously run
 void loop(void) {
-  calibratePump();
+  //calibratePump();
   fillBoiler();
   pageValuesRefresh(false);
   lcdListen();
